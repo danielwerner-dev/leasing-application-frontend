@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "es2020",
+    "lib": ["es2020", "DOM"],
+    "target": "es2020",
+    "importsNotUsedAsValues": "remove",
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "outDir": "build/",
+    "noImplicitAny": true,
+    "allowJs": true,
+    "checkJs": true,
+    "paths": {
+      "$lib": ["./src/lib"],
+      "$lib/*": ["./src/lib/*"],
+      "$routes": ["./src/routes"],
+      "$routes/*": ["./src/routes/*"]
+    },
+    "rootDirs": [".", "./.svelte-kit/types"]
+  },
+  "include": [
+    "ambient.d.ts",
+    "./.svelte-kit/types/**/$types.d.ts",
+    "./vite.config.ts",
+    "./src/**/*.js",
+    "./src/**/*.ts",
+    "./src/**/*.svelte",
+    "./src/**/*.js",
+    "./src/**/*.ts",
+    "./src/**/*.svelte",
+    "./tests/**/*.js",
+    "./tests/**/*.ts",
+    "./tests/**/*.svelte"
+  ]
+}

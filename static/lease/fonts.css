@@ -1,0 +1,262 @@
+@font-face {
+  font-family: Hind;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Hind Light"), local(Hind-Light),
+    url(//fonts.gstatic.com/s/hind/v11/5aU19_a8oxmIfMJaERKSiQ.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/hind/v11/5aU19_a8oxmIfMJaERySjQ.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/hind/v11/5aU19_a8oxmIfMJaERKSiw.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Hind;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Hind Regular"), local(Hind-Regular),
+    url(//fonts.gstatic.com/s/hind/v11/5aU69_a8oxmIdGd4AA.eot?#) format("eot"),
+    url(//fonts.gstatic.com/s/hind/v11/5aU69_a8oxmIdGl4BA.woff2) format("woff2"),
+    url(//fonts.gstatic.com/s/hind/v11/5aU69_a8oxmIdGd4Ag.woff) format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Hind;
+  font-style: normal;
+  font-weight: 500;
+  src: local("Hind Medium"), local(Hind-Medium),
+    url(//fonts.gstatic.com/s/hind/v11/5aU19_a8oxmIfJpbERKSiQ.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/hind/v11/5aU19_a8oxmIfJpbERySjQ.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/hind/v11/5aU19_a8oxmIfJpbERKSiw.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Hind;
+  font-style: normal;
+  font-weight: 600;
+  src: local("Hind SemiBold"), local(Hind-SemiBold),
+    url(//fonts.gstatic.com/s/hind/v11/5aU19_a8oxmIfLZcERKSiQ.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/hind/v11/5aU19_a8oxmIfLZcERySjQ.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/hind/v11/5aU19_a8oxmIfLZcERKSiw.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Hind;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Hind Bold"), local(Hind-Bold),
+    url(//fonts.gstatic.com/s/hind/v11/5aU19_a8oxmIfNJdERKSiQ.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/hind/v11/5aU19_a8oxmIfNJdERySjQ.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/hind/v11/5aU19_a8oxmIfNJdERKSiw.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nunito;
+  font-style: italic;
+  font-weight: 200;
+  src: local("Nunito ExtraLight Italic"), local(Nunito-ExtraLightItalic),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN5MZ9vEUTs.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN5MZ9vKUT8.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN5MZ9vEUTk.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nunito;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Nunito Light Italic"), local(Nunito-LightItalic),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN4oZNvEUTs.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN4oZNvKUT8.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN4oZNvEUTk.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nunito;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Nunito Italic"), local(Nunito-Italic),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXX3I6Li01BKofIMNaNRso.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXX3I6Li01BKofIMNaDRs4.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXX3I6Li01BKofIMNaNRsg.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nunito;
+  font-style: italic;
+  font-weight: 600;
+  src: local("Nunito SemiBold Italic"), local(Nunito-SemiBoldItalic),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN5cYtvEUTs.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN5cYtvKUT8.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN5cYtvEUTk.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nunito;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Nunito Bold Italic"), local(Nunito-BoldItalic),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN44Y9vEUTs.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN44Y9vKUT8.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN44Y9vEUTk.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nunito;
+  font-style: italic;
+  font-weight: 800;
+  src: local("Nunito ExtraBold Italic"), local(Nunito-ExtraBoldItalic),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN4kYNvEUTs.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN4kYNvKUT8.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN4kYNvEUTk.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nunito;
+  font-style: italic;
+  font-weight: 900;
+  src: local("Nunito Black Italic"), local(Nunito-BlackItalic),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN4AYdvEUTs.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN4AYdvKUT8.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXQ3I6Li01BKofIMN4AYdvEUTk.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Nunito ExtraLight"), local(Nunito-ExtraLight),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofA-seUb-vM.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofA-seUYevI.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofA-seUb-vO.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Nunito Light"), local(Nunito-Light),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofAnsSUb-vM.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofAnsSUYevI.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofAnsSUb-vO.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Nunito Regular"), local(Nunito-Regular),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXV3I6Li01BKofIO-aF.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXV3I6Li01BKofINeaB.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXV3I6Li01BKofIO-aH.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  src: local("Nunito SemiBold"), local(Nunito-SemiBold),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofA6sKUb-vM.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofA6sKUYevI.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofA6sKUb-vO.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Nunito Bold"), local(Nunito-Bold),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofAjsOUb-vM.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofAjsOUYevI.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofAjsOUb-vO.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  src: local("Nunito ExtraBold"), local(Nunito-ExtraBold),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofAksCUb-vM.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofAksCUYevI.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofAksCUb-vO.woff)
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Nunito Black"), local(Nunito-Black),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofAtsGUb-vM.eot?#)
+      format("eot"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofAtsGUYevI.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/s/nunito/v14/XRXW3I6Li01BKofAtsGUb-vO.woff)
+      format("woff");
+  font-display: swap;
+}

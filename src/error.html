@@ -1,0 +1,219 @@
+<!-- 
+  This file is returned by svelte kit in case of errors on the BFF endpoints/routes.
+  We also have the src/routes/+error.svelte, that instantiates $lib/components/ErrorPages/AppError.svelte, 
+  and is returned in case of errors on page routes.
+  If you need to change the general error screen, and that change applies to both cases, please make the changes every where you need.
+
+  Reference: https://kit.svelte.dev/docs/routing#server
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Invitation Homes | Leasing Application Dashboard</title>
+
+    <link rel="stylesheet" href="/lease/fonts.css" />
+    <link rel="stylesheet" href="/lease/layout.css" />
+    <link rel="stylesheet" href="/lease/variables.css" />
+    <style>
+      .app-error {
+        font-family: var(--font-primary);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .app-error__title,
+      .app-error__text {
+        max-width: 277px;
+        line-height: 22px;
+        text-align: center;
+      }
+
+      .app-error__title {
+        font-weight: 500;
+        font-size: 18px;
+        margin: 24px 0 0 0;
+      }
+
+      .app-error__text {
+        font-size: 16px;
+        margin: 16px 0;
+      }
+
+      .link {
+        font-family: var(--font-primary);
+        font-style: normal;
+        font-weight: 700;
+        font-size: var(--font-size);
+        line-height: 18px;
+        color: var(--color-primary);
+        text-decoration: none;
+      }
+
+      .text.primary {
+        color: var(--color-primary);
+      }
+
+      .text.primary:hover:not(.disabled) {
+        background-color: var(--color-primary-background);
+      }
+
+      .default {
+        padding: 12px 24px;
+        height: 44px;
+      }
+
+      .button {
+        font-family: var(--font-primary, sans-serif);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app-error">
+      <svg
+        width="128"
+        height="128"
+        viewBox="0 0 129 128"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M23.54 64.6678L12.0608 76.1423C9.97975 78.2361 9.97975 81.6176 12.0608 83.7114L46.116 117.772C48.2094 119.854 51.5904 119.854 53.6838 117.772L65.1563 106.298L51.9193 93.0587C50.6387 91.7709 50.0959 89.9227 50.4769 88.1468L52.9123 76.9207L41.6947 79.3497C39.9177 79.7355 38.0666 79.1892 36.7837 77.9003L23.54 64.6678Z"
+          fill="#C3D9E8"
+        ></path>
+        <path
+          d="M80.42 10C78.9999 9.99801 77.6377 10.5633 76.6361 11.5702L65.1636 23.0446L78.4073 36.2771C79.6926 37.565 80.2381 39.4165 79.8564 41.1957L77.4277 52.4151L88.652 49.986C90.4288 49.6067 92.2768 50.1521 93.5631 51.4354L106.8 64.6679L118.273 53.1935C120.354 51.0997 120.354 47.7182 118.273 45.6244L84.1905 11.5702C83.1922 10.5665 81.8355 10.0016 80.42 10Z"
+          fill="#C3D9E8"
+        ></path>
+        <path
+          d="M49.8999 10C48.4798 9.99801 47.1176 10.5633 46.116 11.5702L12.0608 45.6244C9.97975 47.7182 9.97975 51.0997 12.0608 53.1935L23.5333 64.6679L36.7703 51.4354C38.0565 50.1521 39.9045 49.6067 41.6813 49.986L52.9123 52.4151L50.4769 41.1957C50.0952 39.4165 50.6407 37.565 51.9261 36.2771L65.1563 23.0379L53.6838 11.5702C52.6822 10.5633 51.3201 9.99801 49.8999 10Z"
+          fill="#C3D9E8"
+        ></path>
+        <path
+          d="M40.5548 49.8656C39.1365 49.8663 37.7761 50.4284 36.7709 51.4291L23.54 64.6678L36.7709 77.9008C37.775 78.904 39.1355 79.4685 40.5548 79.471C40.9338 79.4721 41.3117 79.4316 41.6819 79.3502L52.9123 76.9207L55.5965 64.6683L52.9123 52.4151L41.6813 49.986C41.311 49.9053 40.9337 49.8652 40.5548 49.8656Z"
+          fill="#C3D9E8"
+        ></path>
+        <path
+          d="M65.1563 23.0439L51.9193 36.2763C50.6362 37.5628 50.0909 39.4111 50.4701 41.1882L52.9123 52.4151L65.163 55.0984L77.4138 52.4144L79.8425 41.1949C80.2276 39.418 79.6872 37.5669 78.4067 36.2763L65.1563 23.0439Z"
+          fill="#C3D9E8"
+        ></path>
+        <path
+          d="M52.9095 52.4148L55.5931 64.6676L56.5726 60.1449C57.0201 58.0943 58.6216 56.4926 60.6719 56.045L65.1938 55.0653L52.9095 52.4148Z"
+          fill="#C3D9E8"
+        ></path>
+        <path
+          d="M106.773 64.6667L93.5429 77.8992C92.2599 79.1881 90.4089 79.7344 88.6319 79.3486L77.4143 76.9195L79.843 88.139C80.224 89.9149 79.6812 91.7631 78.4005 93.0508L65.1568 106.29L76.6293 117.764C78.7228 119.846 82.1037 119.846 84.1972 117.764L118.252 83.7035C120.333 81.6098 120.333 78.2282 118.252 76.1345L106.773 64.6667Z"
+          fill="#C3D9E8"
+        ></path>
+        <path
+          d="M65.1564 74.2694L52.9123 76.9207L50.4837 88.1394C50.1044 89.9165 50.6497 91.7648 51.9328 93.0513L65.1568 106.29L78.4068 93.058C79.6899 91.7715 80.2353 89.9232 79.856 88.1461L77.4273 76.9267L65.1564 74.2694Z"
+          fill="#C3D9E8"
+        ></path>
+        <path
+          d="M89.7621 49.8656C89.3809 49.8647 89.0008 49.9052 88.6283 49.9864L77.4107 52.4155L74.7271 64.6683L77.4107 76.9211L88.6283 79.3502C89.0006 79.4321 89.3809 79.4726 89.7621 79.471C91.1814 79.4686 92.5419 78.904 93.5461 77.9008L106.776 64.6683L93.5461 51.4358C92.5408 50.4351 91.1804 49.873 89.7621 49.8723"
+          fill="#C3D9E8"
+        ></path>
+        <path
+          d="M74.7575 64.6667L73.778 69.1894C73.3315 71.2382 71.7331 72.8394 69.6854 73.2893L65.1564 74.2694L77.4076 76.9195L74.7575 64.6667Z"
+          fill="#C3D9E8"
+        ></path>
+        <path
+          d="M55.5528 64.6667L52.9095 76.9195L65.1602 74.269L60.6249 73.2893C58.5746 72.8417 56.9732 71.2401 56.5256 69.1894L55.5528 64.6667Z"
+          fill="#C3D9E8"
+        ></path>
+        <path
+          d="M77.4076 52.4148L65.1568 55.0988L69.6854 56.045C71.7357 56.4926 73.3372 58.0943 73.7847 60.1449L74.7642 64.6676L77.4076 52.4148Z"
+          fill="#C3D9E8"
+        ></path>
+        <path
+          d="M65.1578 55.0662L60.6292 56.0459C58.5789 56.4935 56.9775 58.0952 56.53 60.1459L55.5505 64.6752L56.53 69.1979C56.9775 71.2486 58.5789 72.8502 60.6292 73.2978L65.1511 74.2775L69.6865 73.2911C71.7368 72.8435 73.3382 71.2418 73.7857 69.1912L74.7652 64.6685L73.779 60.1459C73.3325 58.0971 71.7342 56.4958 69.6865 56.0459L65.1578 55.0662Z"
+          fill="#C3D9E8"
+        ></path>
+        <path
+          opacity="0.7"
+          d="M58.5 20H102.5V114H32.5V46L58.5 20Z"
+          fill="#4C4C4C"
+          fill-opacity="0.5"
+        ></path>
+        <path
+          d="M50.5 38L54.5 16H98.5V110H28.5V42L50.5 38Z"
+          fill="url(#paint0_linear_9115_223714)"
+        ></path>
+        <g opacity="0.5">
+          <rect
+            x="52.5"
+            y="24"
+            width="24"
+            height="6"
+            fill="#4C4C4C"
+            fill-opacity="0.3"
+          ></rect>
+          <rect x="36.5" y="90" width="26" height="10" fill="#BCBCBC"></rect>
+          <rect
+            x="36.5"
+            y="38"
+            width="22"
+            height="4"
+            fill="#4C4C4C"
+            fill-opacity="0.3"
+          ></rect>
+          <rect
+            x="36.5"
+            y="62"
+            width="22"
+            height="4"
+            fill="#4C4C4C"
+            fill-opacity="0.3"
+          ></rect>
+          <rect x="36.5" y="46" width="54" height="10" fill="#C7C7C7"></rect>
+          <rect x="36.5" y="70" width="54" height="10" fill="#C7C7C7"></rect>
+        </g>
+        <path
+          d="M28.5 42L54.5 16V42H28.5Z"
+          fill="#4C4C4C"
+          fill-opacity="0.3"
+        ></path>
+        <path d="M28.5 42L54.5 16L50.5 38L28.5 42Z" fill="white"></path>
+        <circle cx="89.5" cy="101" r="21" fill="#DD4B54"></circle>
+        <rect x="86.5" y="88" width="6" height="16" rx="2" fill="white"></rect>
+        <rect x="86.5" y="106" width="6" height="6" rx="2" fill="white"></rect>
+        <defs>
+          <linearGradient
+            id="paint0_linear_9115_223714"
+            x1="37.5"
+            y1="32"
+            x2="88.5"
+            y2="94"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="white"></stop>
+            <stop offset="1" stop-color="#DCDCDC"></stop>
+          </linearGradient>
+        </defs>
+      </svg>
+      <p class="app-error__title">
+        Oops! There was an issue loading your application experience.
+      </p>
+      <p class="app-error__text">
+        Our team is working to fix the issue, please try again later. We
+        apologize for the inconvenience.
+      </p>
+      <a class="link" href="/profile/dashboard">
+        <div class="button text primary default">Go to my dashboard</div>
+      </a>
+    </div>
+  </body>
+</html>
